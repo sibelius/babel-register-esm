@@ -6,12 +6,16 @@ related to this issue: https://github.com/standard-things/esm/issues/794
 
 ## How to test it
 
+```
 node babelx.js ./packages/main/src/index.js
+```
 
 it will throw this error:
 
+```
  Error: Cannot find module '@test/shared'. Please verify that the package.json has a valid "main" entry
     at Object.<anonymous> (/babel-register-esm/packages/main/src/index.js:3:38)
+```   
     
 ## How to make it work
 
